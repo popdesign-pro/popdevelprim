@@ -1,0 +1,31 @@
+.skills {
+  color: var(--light);
+}
+button {
+  background-color: transparent;
+  border: 8px solid var(--gray-800);
+  border-radius: 1rem;
+  fill: var(--gray-800);
+}
+.button-one .line {
+  transition: y 0.25s ease-in 0.4s, rotate 0.4s ease-in, opacity 0ms 0.4s;
+  /* to rotate from meddle use origin */
+  transform-origin: center;
+}
+.button-one:hover .line {
+  transition: y 0.25s ease-in, rotate 0.4s ease-in 0.25s, opacity 0ms 0.4s;
+}
+/* ? to choose two classes the :is proparty */
+.button-one:hover :is(.top, .bottom) {
+  y: 45;
+}
+.button-one:hover .top {
+  rotate: 45deg;
+}
+
+.button-one:hover .bottom {
+  rotate: -45deg;
+}
+.button-one:hover .middle {
+  opacity: 0;
+}
