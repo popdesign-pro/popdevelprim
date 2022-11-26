@@ -36,5 +36,18 @@
 .relative {position: relative;}
 .absolute {position: absolute;}
 
-.bodyColor {background-color: var(--clrPrim);}
+.bodyColor {background-color: var(--clrBody);}
 .textColor {background-color: var(--clrText);}
+
+.glassEffect {
+  background-color: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0)
+  );
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 32px;
+}
