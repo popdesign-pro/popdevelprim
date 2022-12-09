@@ -46,7 +46,6 @@ let arry=["Peter",'beren', 'dany']
 console.table(arry)
 */
 /*  lesson from 10 to 17 =========>>
-*/
 let numberOne,numberTwo;
 numberOne = 10;
 numberTwo = 20;
@@ -62,9 +61,8 @@ ${numberOne}`)
 let a = 21;
 let b = 20;
 console.log("_" + (a + "_" + b).repeat(4) + "_"); // _21_2021_2021_2021_20_
+*/
 /*  lesson from 10 to 17 =========>>
 
 
 */
-
-
